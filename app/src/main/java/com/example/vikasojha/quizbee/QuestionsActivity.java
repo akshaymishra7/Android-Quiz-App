@@ -20,27 +20,27 @@ public class QuestionsActivity extends AppCompatActivity {
     RadioButton rb1,rb2,rb3,rb4;
 
     String questions[] = {
-                            "Which method can be defined only once in a program?",
-                            "Which of these is not a bitwise operator?",
+                            "Which of the following option leads to the portability and security of Java?",
+                            "Which of the following is not a Java features?",
                             "Which keyword is used by method to refer to the object that invoked it?",
-                            "Which of these keywords is used to define interfaces in Java?",
+                            "_____ is used to find and fix bugs in the Java programs.",
                             "Which of these access specifiers can be used for an interface?",
-                            "Which of the following is correct way of importing an entire package ‘pkg’?",
+                            "What is the return type of the hashCode() method in the Object class?",
                             "What is the return type of Constructors?",
-                            "Which of the following package stores all the standard java classes?",
+                            "WWhich of the following is a valid long literal?",
                             "Which of these method of class String is used to compare two String objects for their equality?",
                             "An expression involving byte, int, & literal numbers is promoted to which of these?"
                          };
-    String answers[] = {"main method","<=","this","interface","public","import pkg.*","None of the mentioned","java","equals()","int"};
+    String answers[] = {"Bytecode is executed by JVM","Use of pointers","this","JDB","public","int","None of the mentioned","0xnf029L","equals()","int"};
     String opt[] = {
-                    "finalize method","main method","static method","private method",
-                    "&","&=","|=","<=",
+                    "Bytecode is executed by JVM","The applet makes the Java code secure and portable","Use of exception handling","Dynamic binding between objects",
+                    "Dynamic","Architecture Neutral","Use of pointers","Object-oriented",
                     "import","this","catch","abstract",
-                    "Interface","interface","intf","Intf",
+                    "JVM","JRE","JDK","JDB",
                     "public","protected","private","All of the mentioned",
-                    "Import pkg.","import pkg.*","Import pkg.*","import pkg.",
+                    "Object.","int","long","void",
                     "int","float","void","None of the mentioned",
-                    "lang","java","util","java.packages",
+                    "ABH8097","L990023","904423","0xnf029L",
                     "equals()","Equals()","isequal()","Isequal()",
                      "int","long","byte","float"
                    };
